@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/c_proj/proj1/CMakeFiles/stbfc.dir
+/data/data/com.termux/files/home/c_proj/proj1/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/c_proj/proj1/CMakeFiles/rebuild_cache.dir

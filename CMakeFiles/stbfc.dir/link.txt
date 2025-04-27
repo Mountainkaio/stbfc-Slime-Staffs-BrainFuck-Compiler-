@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/stbfc.dir/link.d CMakeFiles/stbfc.dir/main.c.o -o stbfc
