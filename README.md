@@ -1,41 +1,64 @@
-A simple BrainFuck compiler, with some custom things added.
 
-# BrainFuck original:
+---
 
-\+ - adds 1 to the current cell;
+# Slime Staffs BrainFuck Compiler
 
-\- - subtracts 1 from the current cell;
+A simple and fast **Brainfuck compiler** — with custom extensions for integer support, a stack, and more control over the execution!
 
-[ - starts a loop if the current cell is greater than 0;
+---
 
-] - stops the loop if the current cell is lesser than 0;
+## Original Brainfuck Commands
 
-. - prints the current cells value as ASCII;
+| Command | Description |
+|:--------|:------------|
+| `+` | Increment the current cell by 1 |
+| `-` | Decrement the current cell by 1 |
+| `[` | Start a loop if the current cell is greater than 0 |
+| `]` | End a loop if the current cell is less than 0 |
+| `.` | Output the current cell's value as ASCII |
+| `,` | Input a character (ASCII) into the current cell |
 
-, - takes user input as ASCII.
+---
 
-# Original:
+## Custom Commands
 
-: - prints the current cells value as an integer;
+| Command | Description |
+|:--------|:------------|
+| `:` | Output the current cell's value as an **integer** |
+| `;` | Input an **integer** into the current cell |
+| `#` | Push the current cell's value onto the **stack** |
+| `$` | Pop a value from the **stack** into the current cell |
+| `/` | Move the **stack pointer** one position to the right |
+| `\` | Move the **stack pointer** one position to the left |
 
-; - takes user input as an integer;
+---
 
-\# - adds the current cells value to the stack pointer position; 
+##  Compiler Options
 
-$ - replaces the current cells value with the current value of the stack pointer;
+- `--step` — **Step-by-step execution** instead of compiling instantly.
 
-/ - moves the stack pointer to the right;
+When using `--step`, you can type:
 
-\ - moves the stack pointer to the left.
+| Command | Description |
+|:--------|:------------|
+| `x` | Execute the rest of the program instantly |
+| `q` | Quit the program |
 
-# Addicional commands compiling commands:
+---
 
---step - shows the compilers current step, instead of compiling instantly.
+## Coming Soon
 
-# --step commands:
+- `--edit` mode: After compiling, you'll be able to **edit the compiled output** before executing it!
 
-x - executes the rest of the code instantly;
+---
 
-q - ends the program.
+## Project Status
 
-And that's it for now! I'm currently working in a '--edit' mode, where you can edit the result after compiling!
+Core features implemented  
+New features under development  
+
+---
+
+> *Built for fun, learning, and experiments!*
+
+---
