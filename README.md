@@ -1,6 +1,6 @@
 A simple BrainFuck compiler, with some custom things added.
 
-BrainFuck original:
+# BrainFuck original:
 
 \+ - adds 1 to the current cell;
 
@@ -14,7 +14,7 @@ BrainFuck original:
 
 , - takes user input as ASCII.
 
-Original:
+# Original:
 
 : - prints the current cells value as an integer;
 
@@ -28,11 +28,11 @@ $ - replaces the current cells value with the current value of the stack pointer
 
 \ - moves the stack pointer to the left.
 
-Addicional commands:
+# Addicional commands compiling commands:
 
 --step - shows the compilers current step, instead of compiling instantly.
 
---step commands:
+# --step commands:
 
 x - executes the rest of the code instantly;
 
