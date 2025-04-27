@@ -33,6 +33,7 @@ Addicional commands:
 --step - shows the compilers current step, instead of compiling instantly.
 
 --step commands:
+
 x - executes the rest of the code instantly;
 
 q - ends the program.
