@@ -14,7 +14,7 @@ A simple and fast **Brainfuck compiler** — with custom extensions for integer 
 | `+` | Increment the current cell by 1 |
 | `-` | Decrement the current cell by 1 |
 | `[` | Start a loop if the current cell is greater than 0 |
-| `]` | End a loop if the current cell is less than 0 |
+| `]` | End a loop if the current cell is 0 |
 | `.` | Output the current cell's value as ASCII |
 | `,` | Input a character (ASCII) into the current cell |
 
@@ -48,7 +48,7 @@ When using `--step`, you can type:
 
 ## Coming Soon
 
-- `--edit` mode: After compiling, you'll be able to **edit the compiled output** before executing it!
+- `--edit` mode: After compiling, you'll be able to **edit the compiled output** after executing it!
 
 ---
 
